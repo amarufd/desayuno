@@ -1,3 +1,7 @@
 source('acciones.R')
 
-tostar("pan")
+pan <- "pan cortado"
+
+pan <- calentar(pan)
+
+print(pan)
