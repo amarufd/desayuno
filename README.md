@@ -9,12 +9,12 @@ Por ese motivo, se requiere de su colaboración para asginar las materias primas
 
 Las matarias primas son:
 
-`*palta`
-`*naranjas`
-`*pan`
-`*cafe`
-`*harina`
-`*huevos`
+`* palta`
+`* naranjas`
+`* pan`
+`* cafe`
+`* harina`
+`* huevos`
 
 pd: la función servir tiene un orden asignado para que este trabaje adecuadamente. Revisa el código para conocer el orden correcto de las funciones.
 
