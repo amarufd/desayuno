@@ -1,4 +1,4 @@
-calentar <- function(x){
+Calentar <- function(x){
   if(x=="cafe"){
     return("cafe caliente")
   }else if(x=="pan cortado"){
@@ -8,7 +8,7 @@ calentar <- function(x){
   }
 }
 
-preparar <- function(x,y){
+Preparar <- function(x,y){
   if(x=="naranjas cortadas"){
     return("jugo de naranjas")
   }else if((x=="masa de panqueques" && y=="sartén caliente")||(y=="masa de panqueques" && x=="sartén caliente")){
@@ -22,7 +22,7 @@ preparar <- function(x,y){
   }
 }
 
-rellenar <- function(x){
+Rellenar <- function(x){
   if(x=="panqueques"){
     return("panqueques con manjar")
   }else{
@@ -30,7 +30,7 @@ rellenar <- function(x){
   }
 }
 
-moler <- function(x){
+Moler <- function(x){
   if(x=="palta cortada"){
     return("palta molida")
   }else{
@@ -38,7 +38,7 @@ moler <- function(x){
   }
 }
 
-cortar <- function(x){
+Cortar <- function(x){
   if(x=="pan"){
     return("pan cortado")
   }else if(x=="naranjas"){
@@ -50,15 +50,14 @@ cortar <- function(x){
   }
 }
 
-calentarSarten <- function(){
+CalentarSarten <- function(){
   return("sartén caliente")
 }
 
-servir <- function(x,y,z,j){
+Servir <- function(x,y,z,j){
   if((x=="pan tostado con palta" && y=="panqueques con manjar" && z=="jugo de naranjas" && j=="cafe caliente")){
     return("mmmmm... niami... el desayuno está maravilloso")
   }else{
     return("iiiuuuu... esto no está listo")
   }
-  
 }
